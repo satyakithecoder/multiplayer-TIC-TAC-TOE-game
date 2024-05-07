@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 950;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+.container {
+    height: 85vh;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.game-area {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 0px;
+    padding: 10px;
+}
+
+.cells {
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 600;
+}
+button{
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+    border: 2px solid black;
+}
+p{
+    font-size: 18px;
+    font-weight: 650;  
+}
